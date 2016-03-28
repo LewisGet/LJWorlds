@@ -26,10 +26,10 @@ class View
       <h1>{$v->name} {$n->name}</h1>
       <div class="row">
         <a class="col-xs-4" href="app.php?v={$v->id}&n={$n->id}&a=1">
-          Yes
+          <h2>Yes</h2>
         </a>
-        <a class="col-xs-4 col-ooffset-xs-4" href="app.php?v={$v->id}&n={$n->id}&a=0">
-          No
+        <a class="col-xs-4 col-offset-xs-4" href="app.php?v={$v->id}&n={$n->id}&a=0">
+          <h2>No</h2>
         </a>
       </div>
   </body>
