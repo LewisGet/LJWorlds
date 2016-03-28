@@ -1,0 +1,17 @@
+{
+    "name": "LJWorlds",
+    "authors": [
+        {
+            "name" : "Lewis Jang",
+            "email" : "lewis.aedes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "windwalker/database" : "~2.0"
+    }
+}

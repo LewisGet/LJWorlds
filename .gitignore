@@ -1,0 +1,10 @@
+# System
+.*
+!.gitignore
+!.gitkeep
+!.htaccess
+!web.config
+
+# Composer
+/vendor
+composer.lock
